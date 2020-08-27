@@ -1,0 +1,29 @@
+/* .container {
+  display: flex;
+} */
+.card {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 88%;
+}
+.card-footer {
+  text-align: center;
+}
+.card-body {
+  height: 240px;
+}
+.card-body p {
+  font-weight: 700;
+}
+.course-name {
+  font-weight: 700;
+}
+.instructor {
+  color: rgb(238, 66, 13);
+}
+.price {
+  color: #dc3545;
+}
+.rating {
+  color: #ff6a05;
+}

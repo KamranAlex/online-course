@@ -1,0 +1,29 @@
+.cart {
+  top: 10px;
+  position: sticky;
+  border: 1px solid lightgrey;
+  margin: 10px;
+  padding-left: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+.button {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.cart h1 {
+  color: #dc3545;
+  text-align: center;
+  border-bottom: 1px solid;
+  margin: 0px 15px;
+}
+.cart h4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.total-course {
+  color: #dc3545;
+  font-size: 30px;
+  font-weight: 800;
+}
