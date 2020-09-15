@@ -26,6 +26,8 @@ const Cart = (props) => {
     const precision = number.toFixed(2);
     return Number(precision);
   };
+
+  const total = formatPrice(subTotal - discount);
   return (
     <div className='cart'>
       <h1>Cart</h1>
@@ -33,8 +35,8 @@ const Cart = (props) => {
         Total Courses: <span className='total-course'>{getCart.length}</span>{" "}
       </h4>
       <h5>Subtotal: ${formatPrice(subTotal)}</h5>
-      <p>Discount: -${discount}</p>
-      <h3>Total: ${subTotal - discount}</h3>
+      <h6>Discount: -${discount}</h6>
+      <h3>Total: ${total}</h3>
       <div className='button'>
         <button className='btn btn-warning'>
           <FontAwesomeIcon icon={faInfoCircle} /> View Cart Details
